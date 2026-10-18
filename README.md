@@ -33,7 +33,7 @@ Reading this: there's over-separation even without names; names about double it.
 
 NA check. Models can say "NA" (not political); I code it as 50. Masking makes NA more frequent (Gemma 4 on named tweets: 3% → 18%), which shrinks the gap mechanically. Dropping tweets with NA in either run, commercial models: +9.6 to +17.0 named, +1.1 to +8.3 masked. GPT-5.6 Terra keeps 8.3 (4.2–12.3). So: most of the gap, not all of it.
 
-Two examples. A Democrat's tweet about "@VetAffairsDems legislation" on emergency mental health care for veterans: raters 46, commercial models 28 on average, 46 with the handle masked. A Republican's tweet blaming "Democrats' failed economic policies" for grocery prices: 75 / 88 / 74.
+Two examples. A Republican's tweet blaming "Democrats' failed economic policies" for grocery prices: raters 75, commercial models 88 on average, 74 with the name masked. A Democrat's tweet about "@VetAffairsDems legislation" on emergency mental health care for veterans: 46 / 28 / 46.
 
 ![Two example tweets](figures/02_example_tweets.png)
 
