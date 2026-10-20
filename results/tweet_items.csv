@@ -2931,3 +2931,1236 @@ lemens_tweet_885,Republican Party,False,88.75,90.0,90.0,commercial,Claude Sonnet
 lemens_tweet_887,Republican Party,True,79.737,90.0,90.0,commercial,Claude Sonnet 5,True
 lemens_tweet_889,Republican Party,True,78.895,90.0,90.0,commercial,Claude Sonnet 5,True
 lemens_tweet_891,Republican Party,False,53.6,55.0,55.0,commercial,Claude Sonnet 5,True
+lemens_tweet_15,Republican Party,False,45.182,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_30,Republican Party,True,70.667,62.0,55.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_38,Republican Party,False,75.737,87.0,86.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_48,Democratic Party,True,18.895,35.0,38.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_49,Republican Party,True,71.143,72.0,65.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_55,Republican Party,False,57.944,60.0,60.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_60,Democratic Party,False,50.333,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_62,Democratic Party,True,10.5,15.0,18.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_64,Republican Party,True,75.667,70.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_65,Republican Party,True,52.833,60.0,60.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_74,Democratic Party,True,17.5,20.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_78,Republican Party,True,77.9,83.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_81,Republican Party,True,78.4,87.0,86.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_92,Democratic Party,False,44.7,50.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_100,Democratic Party,False,32.0,16.0,16.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_101,Democratic Party,True,22.476,20.0,19.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_102,Republican Party,False,59.278,70.0,70.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_103,Democratic Party,True,28.238,30.0,30.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_118,Democratic Party,True,23.65,30.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_123,Republican Party,True,60.1,80.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_150,Democratic Party,True,45.611,33.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_161,Democratic Party,True,21.8,24.0,23.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_174,Democratic Party,False,26.611,20.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_176,Democratic Party,True,21.85,35.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_178,Democratic Party,False,37.882,50.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_189,Democratic Party,True,22.15,15.0,13.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_195,Democratic Party,False,53.889,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_197,Republican Party,True,53.737,62.0,64.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_198,Republican Party,True,81.9,88.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_209,Republican Party,True,80.6,84.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_222,Democratic Party,False,38.1,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_232,Republican Party,True,59.167,42.0,47.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_239,Republican Party,False,75.611,82.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_257,Republican Party,True,78.632,86.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_262,Republican Party,True,84.421,80.0,70.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_275,Republican Party,True,80.5,85.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_304,Republican Party,True,89.1,88.0,87.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_307,Democratic Party,False,33.615,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_314,Democratic Party,True,31.65,21.0,23.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_330,Republican Party,True,75.438,72.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_332,Republican Party,False,73.0,78.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_333,Republican Party,True,81.368,91.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_335,Democratic Party,False,44.1,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_341,Republican Party,True,69.526,89.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_347,Democratic Party,True,13.105,19.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_352,Republican Party,True,89.529,85.0,84.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_371,Democratic Party,True,41.0,25.0,25.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_378,Democratic Party,False,40.875,45.0,45.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_388,Democratic Party,True,17.15,16.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_394,Republican Party,False,68.111,85.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_398,Republican Party,False,72.474,86.0,86.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_406,Democratic Party,True,14.105,18.0,18.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_412,Republican Party,False,74.0,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_415,Republican Party,True,86.053,88.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_419,Republican Party,True,82.579,88.0,87.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_424,Democratic Party,True,25.421,40.0,44.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_430,Republican Party,True,81.952,91.0,91.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_435,Democratic Party,False,46.455,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_449,Republican Party,False,45.882,43.0,42.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_481,Democratic Party,True,31.316,35.0,38.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_485,Republican Party,True,85.2,94.0,94.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_489,Republican Party,True,89.684,89.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_521,Republican Party,True,91.15,91.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_532,Republican Party,False,41.316,57.0,57.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_536,Republican Party,True,91.048,88.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_547,Republican Party,False,30.333,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_557,Republican Party,True,78.0,79.0,75.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_563,Democratic Party,True,46.143,28.0,32.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_574,Democratic Party,False,8.35,9.0,7.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_579,Republican Party,True,66.167,91.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_582,Republican Party,False,57.583,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_587,Republican Party,False,64.611,56.0,55.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_590,Republican Party,True,80.895,80.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_596,Democratic Party,True,23.95,18.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_602,Democratic Party,True,43.786,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_630,Republican Party,True,81.667,86.0,86.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_640,Republican Party,True,81.7,83.0,76.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_650,Republican Party,False,35.737,42.0,43.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_656,Democratic Party,True,26.833,25.0,28.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_665,Republican Party,True,82.45,78.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_669,Republican Party,True,76.524,86.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_671,Democratic Party,True,10.381,15.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_673,Republican Party,False,60.85,80.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_679,Democratic Party,False,45.222,22.0,22.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_686,Democratic Party,True,10.857,18.0,18.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_725,Republican Party,False,53.211,82.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_730,Republican Party,True,82.667,80.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_739,Democratic Party,True,18.35,15.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_751,Republican Party,True,60.4,77.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_752,Republican Party,False,61.056,75.0,73.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_757,Democratic Party,True,24.0,35.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_761,Democratic Party,True,15.35,15.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_773,Republican Party,True,76.905,68.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_774,Democratic Party,True,17.0,14.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_783,Republican Party,False,78.706,85.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_810,Democratic Party,True,18.762,18.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_813,Democratic Party,True,15.526,15.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_814,Democratic Party,False,30.789,30.0,30.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_816,Republican Party,True,40.619,48.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_830,Republican Party,False,53.056,50.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_833,Republican Party,True,91.632,94.0,94.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_841,Republican Party,True,79.905,88.0,87.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_842,Democratic Party,False,57.0,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_857,Democratic Party,False,42.611,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_872,Republican Party,True,77.947,82.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_2,Republican Party,False,81.667,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_8,Republican Party,True,74.188,62.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_11,Republican Party,False,54.222,74.0,73.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_14,Republican Party,True,82.316,84.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_25,Republican Party,True,43.65,73.0,65.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_27,Democratic Party,False,25.722,25.0,25.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_41,Democratic Party,True,16.714,18.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_44,Republican Party,False,53.167,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_51,Democratic Party,True,23.333,35.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_52,Democratic Party,False,57.571,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_63,Republican Party,True,79.278,65.0,58.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_66,Republican Party,True,89.263,84.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_71,Democratic Party,False,21.45,20.0,22.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_77,Democratic Party,True,34.471,23.0,24.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_85,Republican Party,True,81.211,89.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_91,Republican Party,False,73.158,77.0,77.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_94,Republican Party,False,52.5,78.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_97,Republican Party,True,75.85,83.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_98,Democratic Party,True,22.526,35.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_105,Republican Party,True,84.45,80.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_109,Republican Party,True,69.1,75.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_112,Republican Party,True,86.3,76.0,63.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_113,Democratic Party,False,33.368,35.0,32.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_117,Republican Party,True,81.421,88.0,75.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_125,Republican Party,True,73.842,84.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_129,Republican Party,True,77.7,85.0,84.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_133,Republican Party,False,72.842,76.0,75.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_152,Republican Party,True,85.857,94.0,90.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_154,Republican Party,True,89.053,90.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_158,Republican Party,True,77.65,94.0,90.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_169,Republican Party,True,88.471,84.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_173,Republican Party,True,72.095,83.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_177,Republican Party,True,79.95,65.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_179,Republican Party,False,68.35,78.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_180,Democratic Party,True,35.938,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_183,Democratic Party,True,34.632,23.0,30.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_186,Republican Party,True,82.95,86.0,87.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_199,Republican Party,False,60.0,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_201,Democratic Party,False,49.0,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_211,Democratic Party,False,43.167,35.0,35.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_217,Democratic Party,True,12.737,16.0,16.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_219,Democratic Party,False,20.188,20.0,19.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_226,Republican Party,True,75.15,78.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_244,Republican Party,False,71.857,83.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_247,Democratic Party,False,19.2,9.0,12.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_258,Democratic Party,False,33.636,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_267,Democratic Party,False,38.714,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_269,Democratic Party,True,48.611,47.0,45.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_276,Democratic Party,True,15.75,12.0,12.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_283,Republican Party,True,87.316,85.0,84.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_286,Republican Party,True,78.952,85.0,78.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_296,Republican Party,False,29.944,45.0,45.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_298,Republican Party,True,80.5,83.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_301,Republican Party,True,79.421,75.0,67.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_316,Republican Party,True,83.4,86.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_321,Republican Party,False,64.571,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_351,Democratic Party,True,21.263,38.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_355,Democratic Party,True,20.789,20.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_359,Republican Party,True,78.053,89.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_361,Republican Party,False,80.5,78.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_364,Republican Party,False,59.875,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_373,Republican Party,True,82.0,83.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_377,Democratic Party,True,28.421,30.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_382,Democratic Party,True,23.0,16.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_383,Democratic Party,False,42.25,43.0,43.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_385,Republican Party,True,82.526,86.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_391,Republican Party,False,39.95,35.0,38.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_399,Republican Party,False,69.9,88.0,89.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_401,Democratic Party,False,46.421,38.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_402,Republican Party,True,83.75,91.0,90.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_434,Republican Party,False,58.2,65.0,65.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_439,Democratic Party,True,29.316,14.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_440,Republican Party,True,92.105,86.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_446,Republican Party,False,91.952,88.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_471,Republican Party,False,67.267,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_473,Republican Party,True,86.526,86.0,82.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_479,Republican Party,True,74.81,83.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_484,Democratic Party,False,27.882,30.0,32.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_496,Republican Party,True,79.85,75.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_498,Republican Party,True,73.0,77.0,80.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_501,Democratic Party,True,21.55,15.0,16.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_503,Republican Party,True,73.35,85.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_511,Republican Party,True,86.45,94.0,93.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_518,Republican Party,True,82.091,75.0,70.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_529,Democratic Party,True,20.55,15.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_544,Republican Party,False,71.889,75.0,76.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_550,Republican Party,True,74.684,80.0,75.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_554,Democratic Party,False,28.053,19.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_562,Republican Party,True,71.375,82.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_569,Democratic Party,True,30.105,32.0,30.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_599,Republican Party,False,57.588,77.0,76.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_613,Republican Party,False,61.364,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_614,Republican Party,True,76.286,75.0,75.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_616,Republican Party,False,81.158,88.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_618,Republican Party,True,82.211,77.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_629,Democratic Party,False,44.333,35.0,38.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_667,Republican Party,True,75.0,76.0,65.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_682,Democratic Party,False,34.533,25.0,28.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_693,Republican Party,False,55.75,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_701,Democratic Party,False,32.375,43.0,40.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_704,Democratic Party,False,61.5,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_724,Democratic Party,True,36.333,40.0,45.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_729,Republican Party,False,40.632,48.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_736,Democratic Party,True,54.562,56.0,57.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_744,Democratic Party,False,31.462,40.0,43.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_747,Democratic Party,False,15.526,17.0,15.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_748,Republican Party,True,83.65,75.0,50.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_750,Democratic Party,False,49.111,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_754,Democratic Party,True,35.842,20.0,20.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_755,Democratic Party,True,18.0,14.0,12.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_765,Republican Party,False,88.529,78.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_771,Democratic Party,True,40.647,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_780,Republican Party,True,81.333,84.0,84.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_791,Republican Party,True,66.632,75.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_795,Democratic Party,False,46.81,35.0,35.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_797,Republican Party,True,79.053,77.0,72.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_801,Republican Party,False,49.533,50.0,53.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_804,Republican Party,True,79.368,86.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_834,Republican Party,True,84.7,85.0,85.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_864,Republican Party,False,44.625,65.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_869,Republican Party,True,70.429,80.0,79.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_873,Democratic Party,False,40.727,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_875,Republican Party,False,53.375,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_883,Republican Party,True,87.833,93.0,94.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_885,Republican Party,False,88.75,90.0,90.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_887,Republican Party,True,79.737,91.0,88.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_889,Republican Party,True,78.895,88.0,83.0,flagship,GPT-6.1 Sol,True
+lemens_tweet_891,Republican Party,False,53.6,50.0,50.0,flagship,GPT-6.1 Sol,False
+lemens_tweet_0,Democratic Party,False,51.083,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_10,Democratic Party,False,29.947,45.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_15,Republican Party,False,45.182,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_21,Republican Party,False,53.846,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_23,Democratic Party,False,39.545,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_28,Democratic Party,False,34.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_30,Republican Party,True,70.667,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_36,Democratic Party,False,45.19,75.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_37,Democratic Party,False,24.421,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_38,Republican Party,False,75.737,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_40,Democratic Party,False,41.235,20.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_48,Democratic Party,True,18.895,15.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_49,Republican Party,True,71.143,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_53,Republican Party,False,34.562,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_55,Republican Party,False,57.944,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_60,Democratic Party,False,50.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_62,Democratic Party,True,10.5,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_64,Republican Party,True,75.667,25.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_65,Republican Party,True,52.833,50.0,65.0,open-new,Qwen3.8 27B,False
+lemens_tweet_74,Democratic Party,True,17.5,15.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_78,Republican Party,True,77.9,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_81,Republican Party,True,78.4,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_92,Democratic Party,False,44.7,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_96,Republican Party,False,57.231,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_100,Democratic Party,False,32.0,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_101,Democratic Party,True,22.476,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_102,Republican Party,False,59.278,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_103,Democratic Party,True,28.238,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_107,Republican Party,False,78.529,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_118,Democratic Party,True,23.65,15.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_119,Democratic Party,False,71.667,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_122,Democratic Party,False,31.7,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_123,Republican Party,True,60.1,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_126,Democratic Party,False,14.895,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_127,Republican Party,False,52.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_130,Republican Party,False,92.579,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_131,Democratic Party,False,34.917,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_134,Republican Party,False,54.188,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_135,Republican Party,False,54.471,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_136,Democratic Party,False,39.591,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_147,Democratic Party,False,40.556,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_150,Democratic Party,True,45.611,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_151,Democratic Party,False,46.0,50.0,45.0,open-new,Qwen3.8 27B,False
+lemens_tweet_153,Republican Party,False,51.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_161,Democratic Party,True,21.8,20.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_164,Democratic Party,False,47.833,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_174,Democratic Party,False,26.611,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_176,Democratic Party,True,21.85,25.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_178,Democratic Party,False,37.882,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_189,Democratic Party,True,22.15,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_190,Democratic Party,False,42.158,25.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_191,Republican Party,False,46.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_193,Democratic Party,False,35.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_195,Democratic Party,False,53.889,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_196,Republican Party,False,63.529,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_197,Republican Party,True,53.737,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_198,Republican Party,True,81.9,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_209,Republican Party,True,80.6,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_216,Republican Party,False,81.8,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_220,Republican Party,False,77.857,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_222,Democratic Party,False,38.1,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_228,Democratic Party,False,28.667,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_232,Republican Party,True,59.167,65.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_233,Democratic Party,False,56.833,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_237,Republican Party,False,44.412,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_238,Democratic Party,False,46.118,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_239,Republican Party,False,75.611,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_241,Democratic Party,False,35.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_246,Democratic Party,False,29.647,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_250,Democratic Party,False,57.111,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_257,Republican Party,True,78.632,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_262,Republican Party,True,84.421,85.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_264,Democratic Party,False,47.6,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_275,Republican Party,True,80.5,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_279,Republican Party,False,78.842,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_280,Democratic Party,False,41.056,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_282,Republican Party,False,58.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_304,Republican Party,True,89.1,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_306,Democratic Party,False,53.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_307,Democratic Party,False,33.615,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_308,Republican Party,False,75.125,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_313,Democratic Party,False,47.625,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_314,Democratic Party,True,31.65,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_315,Democratic Party,False,18.176,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_319,Republican Party,False,72.385,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_325,Democratic Party,False,34.357,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_329,Republican Party,False,56.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_330,Republican Party,True,75.438,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_332,Republican Party,False,73.0,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_333,Republican Party,True,81.368,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_335,Democratic Party,False,44.1,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_340,Democratic Party,False,45.545,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_341,Republican Party,True,69.526,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_342,Republican Party,False,43.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_347,Democratic Party,True,13.105,15.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_352,Republican Party,True,89.529,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_357,Republican Party,False,54.667,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_358,Democratic Party,False,62.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_366,Republican Party,False,80.667,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_370,Democratic Party,False,62.714,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_371,Democratic Party,True,41.0,20.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_372,Democratic Party,False,41.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_375,Democratic Party,False,51.2,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_376,Republican Party,False,54.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_378,Democratic Party,False,40.875,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_380,Democratic Party,False,58.625,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_381,Democratic Party,False,29.211,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_384,Democratic Party,False,52.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_387,Republican Party,False,56.583,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_388,Democratic Party,True,17.15,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_389,Democratic Party,False,31.467,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_394,Republican Party,False,68.111,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_398,Republican Party,False,72.474,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_406,Democratic Party,True,14.105,20.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_408,Democratic Party,False,51.353,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_412,Republican Party,False,74.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_414,Republican Party,False,48.632,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_415,Republican Party,True,86.053,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_419,Republican Party,True,82.579,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_421,Democratic Party,False,33.615,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_422,Democratic Party,False,14.381,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_424,Democratic Party,True,25.421,45.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_425,Republican Party,False,63.333,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_430,Republican Party,True,81.952,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_433,Democratic Party,False,41.474,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_435,Democratic Party,False,46.455,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_438,Democratic Party,False,32.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_441,Republican Party,False,78.6,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_449,Republican Party,False,45.882,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_450,Democratic Party,False,29.312,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_453,Republican Party,False,64.0,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_455,Democratic Party,False,35.6,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_457,Republican Party,False,91.056,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_463,Democratic Party,False,39.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_464,Republican Party,False,57.286,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_472,Republican Party,False,55.4,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_476,Republican Party,False,80.235,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_481,Democratic Party,True,31.316,20.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_485,Republican Party,True,85.2,75.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_489,Republican Party,True,89.684,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_497,Republican Party,False,67.833,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_500,Democratic Party,False,53.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_506,Democratic Party,False,36.75,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_513,Democratic Party,False,38.789,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_515,Democratic Party,False,17.053,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_521,Republican Party,True,91.15,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_522,Democratic Party,False,35.25,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_524,Democratic Party,False,38.526,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_530,Democratic Party,False,42.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_531,Republican Party,False,39.188,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_532,Republican Party,False,41.316,45.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_535,Democratic Party,False,49.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_536,Republican Party,True,91.048,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_545,Democratic Party,False,51.133,65.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_547,Republican Party,False,30.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_552,Democratic Party,False,47.9,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_555,Republican Party,False,83.105,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_557,Republican Party,True,78.0,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_561,Democratic Party,False,59.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_563,Democratic Party,True,46.143,15.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_573,Democratic Party,False,29.8,20.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_574,Democratic Party,False,8.35,5.0,5.0,open-new,Qwen3.8 27B,True
+lemens_tweet_579,Republican Party,True,66.167,90.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_580,Republican Party,False,68.158,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_582,Republican Party,False,57.583,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_585,Democratic Party,False,40.294,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_587,Republican Party,False,64.611,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_590,Republican Party,True,80.895,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_596,Democratic Party,True,23.95,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_598,Republican Party,False,83.85,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_600,Republican Party,False,62.842,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_602,Democratic Party,True,43.786,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_603,Democratic Party,False,31.765,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_604,Republican Party,False,54.143,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_608,Republican Party,False,67.722,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_617,Democratic Party,False,22.0,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_623,Republican Party,False,45.062,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_627,Republican Party,False,37.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_628,Democratic Party,False,22.762,15.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_630,Republican Party,True,81.667,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_638,Republican Party,False,84.15,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_640,Republican Party,True,81.7,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_641,Democratic Party,False,43.444,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_650,Republican Party,False,35.737,45.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_656,Democratic Party,True,26.833,20.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_659,Democratic Party,False,41.75,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_660,Democratic Party,False,54.158,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_665,Republican Party,True,82.45,15.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_666,Republican Party,False,60.944,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_668,Democratic Party,False,27.263,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_669,Republican Party,True,76.524,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_671,Democratic Party,True,10.381,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_673,Republican Party,False,60.85,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_679,Democratic Party,False,45.222,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_684,Democratic Party,False,24.4,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_686,Democratic Party,True,10.857,15.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_688,Democratic Party,False,58.583,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_695,Republican Party,False,59.474,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_696,Democratic Party,False,52.722,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_697,Democratic Party,False,54.125,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_698,Republican Party,False,64.0,75.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_700,Democratic Party,False,70.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_703,Republican Party,False,46.833,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_708,Democratic Party,False,51.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_710,Democratic Party,False,29.762,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_711,Republican Party,False,91.9,85.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_718,Democratic Party,False,47.778,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_725,Republican Party,False,53.211,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_727,Republican Party,False,33.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_728,Republican Party,False,51.4,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_730,Republican Party,True,82.667,75.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_732,Democratic Party,False,33.867,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_735,Republican Party,False,41.2,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_739,Democratic Party,True,18.35,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_746,Democratic Party,False,27.579,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_751,Republican Party,True,60.4,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_752,Republican Party,False,61.056,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_753,Republican Party,False,58.933,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_757,Democratic Party,True,24.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_761,Democratic Party,True,15.35,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_773,Republican Party,True,76.905,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_774,Democratic Party,True,17.0,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_776,Republican Party,False,70.316,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_782,Democratic Party,False,46.714,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_783,Republican Party,False,78.706,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_793,Democratic Party,False,29.722,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_803,Republican Party,False,61.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_810,Democratic Party,True,18.762,15.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_813,Democratic Party,True,15.526,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_814,Democratic Party,False,30.789,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_815,Democratic Party,False,48.789,35.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_816,Republican Party,True,40.619,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_819,Democratic Party,False,32.737,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_820,Democratic Party,False,45.2,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_821,Democratic Party,False,32.556,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_822,Democratic Party,False,44.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_825,Republican Party,False,63.375,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_829,Democratic Party,False,27.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_830,Republican Party,False,53.056,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_833,Republican Party,True,91.632,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_841,Republican Party,True,79.905,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_842,Democratic Party,False,57.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_855,Democratic Party,False,26.611,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_857,Democratic Party,False,42.611,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_871,Democratic Party,False,33.353,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_872,Republican Party,True,77.947,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_878,Republican Party,False,60.211,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_884,Republican Party,False,57.556,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_893,Democratic Party,False,35.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_895,Democratic Party,False,21.0,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_2,Republican Party,False,81.667,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_5,Democratic Party,False,43.75,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_8,Republican Party,True,74.188,65.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_11,Republican Party,False,54.222,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_14,Republican Party,True,82.316,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_25,Republican Party,True,43.65,20.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_27,Democratic Party,False,25.722,25.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_31,Democratic Party,False,23.111,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_33,Republican Party,False,47.385,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_39,Democratic Party,False,46.938,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_41,Democratic Party,True,16.714,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_44,Republican Party,False,53.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_47,Republican Party,False,58.167,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_51,Democratic Party,True,23.333,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_52,Democratic Party,False,57.571,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_54,Republican Party,False,87.857,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_59,Democratic Party,False,29.5,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_63,Republican Party,True,79.278,75.0,55.0,open-new,Qwen3.8 27B,True
+lemens_tweet_66,Republican Party,True,89.263,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_67,Democratic Party,False,50.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_71,Democratic Party,False,21.45,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_77,Democratic Party,True,34.471,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_83,Democratic Party,False,31.1,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_84,Democratic Party,False,71.211,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_85,Republican Party,True,81.211,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_91,Republican Party,False,73.158,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_93,Republican Party,False,69.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_94,Republican Party,False,52.5,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_95,Democratic Party,False,43.733,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_97,Republican Party,True,75.85,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_98,Democratic Party,True,22.526,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_105,Republican Party,True,84.45,95.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_108,Democratic Party,False,49.053,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_109,Republican Party,True,69.1,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_110,Democratic Party,False,43.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_112,Republican Party,True,86.3,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_113,Democratic Party,False,33.368,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_114,Democratic Party,False,33.059,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_115,Republican Party,False,50.722,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_117,Republican Party,True,81.421,85.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_125,Republican Party,True,73.842,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_129,Republican Party,True,77.7,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_133,Republican Party,False,72.842,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_141,Republican Party,False,65.688,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_142,Republican Party,False,62.263,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_152,Republican Party,True,85.857,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_154,Republican Party,True,89.053,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_158,Republican Party,True,77.65,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_159,Republican Party,False,53.15,45.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_160,Democratic Party,False,22.231,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_165,Republican Party,False,55.125,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_168,Democratic Party,False,39.533,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_169,Republican Party,True,88.471,85.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_173,Republican Party,True,72.095,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_177,Republican Party,True,79.95,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_179,Republican Party,False,68.35,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_180,Democratic Party,True,35.938,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_183,Democratic Party,True,34.632,15.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_184,Democratic Party,False,34.111,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_186,Republican Party,True,82.95,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_199,Republican Party,False,60.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_201,Democratic Party,False,49.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_207,Democratic Party,False,47.889,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_210,Democratic Party,False,41.632,50.0,25.0,open-new,Qwen3.8 27B,False
+lemens_tweet_211,Democratic Party,False,43.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_217,Democratic Party,True,12.737,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_218,Democratic Party,False,57.714,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_219,Democratic Party,False,20.188,75.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_226,Republican Party,True,75.15,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_230,Republican Party,False,50.412,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_235,Democratic Party,False,18.952,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_244,Republican Party,False,71.857,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_247,Democratic Party,False,19.2,85.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_248,Democratic Party,False,31.632,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_252,Democratic Party,False,38.471,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_253,Democratic Party,False,42.462,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_258,Democratic Party,False,33.636,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_260,Democratic Party,False,39.643,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_266,Democratic Party,False,30.2,50.0,55.0,open-new,Qwen3.8 27B,False
+lemens_tweet_267,Democratic Party,False,38.714,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_269,Democratic Party,True,48.611,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_276,Democratic Party,True,15.75,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_278,Democratic Party,False,40.533,55.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_283,Republican Party,True,87.316,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_284,Democratic Party,False,59.9,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_286,Republican Party,True,78.952,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_296,Republican Party,False,29.944,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_298,Republican Party,True,80.5,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_299,Republican Party,False,66.3,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_301,Republican Party,True,79.421,75.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_305,Democratic Party,False,29.053,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_310,Republican Party,False,42.238,35.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_311,Democratic Party,False,34.1,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_316,Republican Party,True,83.4,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_317,Republican Party,False,40.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_321,Republican Party,False,64.571,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_322,Republican Party,False,23.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_327,Republican Party,False,79.158,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_338,Republican Party,False,59.083,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_345,Democratic Party,False,53.4,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_350,Democratic Party,False,18.682,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_351,Democratic Party,True,21.263,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_355,Democratic Party,True,20.789,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_359,Republican Party,True,78.053,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_360,Democratic Party,False,43.095,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_361,Republican Party,False,80.5,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_364,Republican Party,False,59.875,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_373,Republican Party,True,82.0,95.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_377,Democratic Party,True,28.421,25.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_382,Democratic Party,True,23.0,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_383,Democratic Party,False,42.25,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_385,Republican Party,True,82.526,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_391,Republican Party,False,39.95,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_396,Republican Party,False,64.538,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_399,Republican Party,False,69.9,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_401,Democratic Party,False,46.421,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_402,Republican Party,True,83.75,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_409,Republican Party,False,60.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_426,Republican Party,False,59.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_427,Democratic Party,False,41.778,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_429,Democratic Party,False,50.882,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_434,Republican Party,False,58.2,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_439,Democratic Party,True,29.316,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_440,Republican Party,True,92.105,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_444,Republican Party,False,57.056,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_446,Republican Party,False,91.952,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_447,Democratic Party,False,43.5,25.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_451,Democratic Party,False,56.167,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_452,Democratic Party,False,12.905,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_456,Democratic Party,False,22.3,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_471,Republican Party,False,67.267,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_473,Republican Party,True,86.526,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_475,Democratic Party,False,30.474,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_479,Republican Party,True,74.81,75.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_480,Democratic Party,False,60.692,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_482,Democratic Party,False,12.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_483,Democratic Party,False,31.167,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_484,Democratic Party,False,27.882,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_486,Democratic Party,False,18.412,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_491,Democratic Party,False,61.474,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_492,Democratic Party,False,53.615,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_496,Republican Party,True,79.85,85.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_498,Republican Party,True,73.0,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_499,Democratic Party,False,16.842,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_501,Democratic Party,True,21.55,20.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_503,Republican Party,True,73.35,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_507,Democratic Party,False,55.429,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_511,Republican Party,True,86.45,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_516,Democratic Party,False,46.118,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_518,Republican Party,True,82.091,85.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_520,Republican Party,False,68.737,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_523,Democratic Party,False,49.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_527,Democratic Party,False,17.765,35.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_529,Democratic Party,True,20.55,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_538,Democratic Party,False,37.524,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_539,Republican Party,False,49.8,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_544,Republican Party,False,71.889,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_548,Republican Party,False,33.278,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_550,Republican Party,True,74.684,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_554,Democratic Party,False,28.053,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_562,Republican Party,True,71.375,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_565,Democratic Party,False,37.632,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_569,Democratic Party,True,30.105,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_575,Democratic Party,False,28.316,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_578,Republican Party,False,73.316,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_583,Republican Party,False,86.722,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_588,Republican Party,False,85.118,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_599,Republican Party,False,57.588,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_601,Democratic Party,False,48.286,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_605,Democratic Party,False,30.0,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_606,Republican Party,False,58.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_610,Democratic Party,False,35.412,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_611,Republican Party,False,61.0,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_612,Republican Party,False,68.8,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_613,Republican Party,False,61.364,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_614,Republican Party,True,76.286,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_616,Republican Party,False,81.158,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_618,Republican Party,True,82.211,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_629,Democratic Party,False,44.333,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_632,Republican Party,False,45.55,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_635,Republican Party,False,45.214,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_639,Democratic Party,False,55.438,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_645,Republican Party,False,44.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_653,Republican Party,False,70.667,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_664,Democratic Party,False,45.786,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_667,Republican Party,True,75.0,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_670,Democratic Party,False,41.263,50.0,50.0,open-new,Qwen3.8 27B,True
+lemens_tweet_672,Democratic Party,False,40.278,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_681,Republican Party,False,56.0,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_682,Democratic Party,False,34.533,35.0,35.0,open-new,Qwen3.8 27B,True
+lemens_tweet_690,Democratic Party,False,24.143,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_692,Democratic Party,False,22.647,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_693,Republican Party,False,55.75,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_701,Democratic Party,False,32.375,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_704,Democratic Party,False,61.5,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_715,Democratic Party,False,29.895,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_722,Democratic Party,False,62.929,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_723,Republican Party,False,49.75,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_724,Democratic Party,True,36.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_726,Republican Party,False,41.444,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_729,Republican Party,False,40.632,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_733,Democratic Party,False,35.533,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_736,Democratic Party,True,54.562,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_740,Republican Party,False,75.75,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_744,Democratic Party,False,31.462,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_747,Democratic Party,False,15.526,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_748,Republican Party,True,83.65,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_750,Democratic Party,False,49.111,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_754,Democratic Party,True,35.842,20.0,20.0,open-new,Qwen3.8 27B,True
+lemens_tweet_755,Democratic Party,True,18.0,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_759,Republican Party,False,52.6,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_765,Republican Party,False,88.529,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_768,Republican Party,False,64.333,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_771,Democratic Party,True,40.647,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_780,Republican Party,True,81.333,85.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_786,Democratic Party,False,72.067,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_790,Democratic Party,False,38.188,50.0,25.0,open-new,Qwen3.8 27B,False
+lemens_tweet_791,Republican Party,True,66.632,75.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_795,Democratic Party,False,46.81,45.0,45.0,open-new,Qwen3.8 27B,True
+lemens_tweet_796,Republican Party,False,70.0,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_797,Republican Party,True,79.053,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_801,Republican Party,False,49.533,35.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_804,Republican Party,True,79.368,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_811,Republican Party,False,91.4,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_818,Republican Party,False,30.111,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_823,Republican Party,False,51.733,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_828,Republican Party,False,69.667,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_834,Republican Party,True,84.7,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_836,Republican Party,False,70.778,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_840,Republican Party,False,70.429,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_858,Democratic Party,False,30.842,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_860,Democratic Party,False,37.5,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_861,Republican Party,False,38.818,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_863,Republican Party,False,77.81,75.0,75.0,open-new,Qwen3.8 27B,True
+lemens_tweet_864,Republican Party,False,44.625,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_866,Democratic Party,False,32.667,50.0,25.0,open-new,Qwen3.8 27B,False
+lemens_tweet_869,Republican Party,True,70.429,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_873,Democratic Party,False,40.727,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_875,Republican Party,False,53.375,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_882,Democratic Party,False,18.0,15.0,15.0,open-new,Qwen3.8 27B,True
+lemens_tweet_883,Republican Party,True,87.833,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_885,Republican Party,False,88.75,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_886,Democratic Party,False,29.632,25.0,25.0,open-new,Qwen3.8 27B,True
+lemens_tweet_887,Republican Party,True,79.737,95.0,95.0,open-new,Qwen3.8 27B,True
+lemens_tweet_888,Republican Party,False,48.263,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_889,Republican Party,True,78.895,95.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_890,Republican Party,False,68.684,85.0,85.0,open-new,Qwen3.8 27B,True
+lemens_tweet_891,Republican Party,False,53.6,50.0,50.0,open-new,Qwen3.8 27B,False
+lemens_tweet_898,Republican Party,False,41.714,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_899,Democratic Party,False,56.438,65.0,65.0,open-new,Qwen3.8 27B,True
+lemens_tweet_0,Democratic Party,False,51.083,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_10,Democratic Party,False,29.947,30.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_15,Republican Party,False,45.182,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_21,Republican Party,False,53.846,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_23,Democratic Party,False,39.545,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_28,Democratic Party,False,34.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_30,Republican Party,True,70.667,55.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_36,Democratic Party,False,45.19,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_37,Democratic Party,False,24.421,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_38,Republican Party,False,75.737,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_40,Democratic Party,False,41.235,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_48,Democratic Party,True,18.895,10.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_49,Republican Party,True,71.143,55.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_53,Republican Party,False,34.562,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_55,Republican Party,False,57.944,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_60,Democratic Party,False,50.333,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_62,Democratic Party,True,10.5,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_64,Republican Party,True,75.667,10.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_65,Republican Party,True,52.833,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_74,Democratic Party,True,17.5,10.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_78,Republican Party,True,77.9,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_81,Republican Party,True,78.4,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_92,Democratic Party,False,44.7,50.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_96,Republican Party,False,57.231,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_100,Democratic Party,False,32.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_101,Democratic Party,True,22.476,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_102,Republican Party,False,59.278,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_103,Democratic Party,True,28.238,30.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_107,Republican Party,False,78.529,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_118,Democratic Party,True,23.65,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_119,Democratic Party,False,71.667,30.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_122,Democratic Party,False,31.7,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_123,Republican Party,True,60.1,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_126,Democratic Party,False,14.895,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_127,Republican Party,False,52.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_130,Republican Party,False,92.579,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_131,Democratic Party,False,34.917,50.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_134,Republican Party,False,54.188,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_135,Republican Party,False,54.471,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_136,Democratic Party,False,39.591,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_147,Democratic Party,False,40.556,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_150,Democratic Party,True,45.611,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_151,Democratic Party,False,46.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_153,Republican Party,False,51.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_161,Democratic Party,True,21.8,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_164,Democratic Party,False,47.833,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_174,Democratic Party,False,26.611,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_176,Democratic Party,True,21.85,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_178,Democratic Party,False,37.882,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_189,Democratic Party,True,22.15,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_190,Democratic Party,False,42.158,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_191,Republican Party,False,46.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_193,Democratic Party,False,35.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_195,Democratic Party,False,53.889,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_196,Republican Party,False,63.529,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_197,Republican Party,True,53.737,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_198,Republican Party,True,81.9,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_209,Republican Party,True,80.6,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_216,Republican Party,False,81.8,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_220,Republican Party,False,77.857,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_222,Democratic Party,False,38.1,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_228,Democratic Party,False,28.667,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_232,Republican Party,True,59.167,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_233,Democratic Party,False,56.833,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_237,Republican Party,False,44.412,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_238,Democratic Party,False,46.118,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_239,Republican Party,False,75.611,50.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_241,Democratic Party,False,35.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_246,Democratic Party,False,29.647,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_250,Democratic Party,False,57.111,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_257,Republican Party,True,78.632,85.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_262,Republican Party,True,84.421,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_264,Democratic Party,False,47.6,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_275,Republican Party,True,80.5,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_279,Republican Party,False,78.842,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_280,Democratic Party,False,41.056,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_282,Republican Party,False,58.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_304,Republican Party,True,89.1,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_306,Democratic Party,False,53.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_307,Democratic Party,False,33.615,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_308,Republican Party,False,75.125,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_313,Democratic Party,False,47.625,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_314,Democratic Party,True,31.65,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_315,Democratic Party,False,18.176,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_319,Republican Party,False,72.385,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_325,Democratic Party,False,34.357,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_329,Republican Party,False,56.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_330,Republican Party,True,75.438,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_332,Republican Party,False,73.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_333,Republican Party,True,81.368,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_335,Democratic Party,False,44.1,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_340,Democratic Party,False,45.545,35.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_341,Republican Party,True,69.526,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_342,Republican Party,False,43.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_347,Democratic Party,True,13.105,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_352,Republican Party,True,89.529,15.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_357,Republican Party,False,54.667,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_358,Democratic Party,False,62.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_366,Republican Party,False,80.667,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_370,Democratic Party,False,62.714,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_371,Democratic Party,True,41.0,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_372,Democratic Party,False,41.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_375,Democratic Party,False,51.2,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_376,Republican Party,False,54.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_378,Democratic Party,False,40.875,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_380,Democratic Party,False,58.625,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_381,Democratic Party,False,29.211,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_384,Democratic Party,False,52.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_387,Republican Party,False,56.583,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_388,Democratic Party,True,17.15,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_389,Democratic Party,False,31.467,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_394,Republican Party,False,68.111,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_398,Republican Party,False,72.474,100.0,100.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_406,Democratic Party,True,14.105,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_408,Democratic Party,False,51.353,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_412,Republican Party,False,74.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_414,Republican Party,False,48.632,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_415,Republican Party,True,86.053,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_419,Republican Party,True,82.579,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_421,Democratic Party,False,33.615,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_422,Democratic Party,False,14.381,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_424,Democratic Party,True,25.421,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_425,Republican Party,False,63.333,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_430,Republican Party,True,81.952,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_433,Democratic Party,False,41.474,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_435,Democratic Party,False,46.455,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_438,Democratic Party,False,32.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_441,Republican Party,False,78.6,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_449,Republican Party,False,45.882,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_450,Democratic Party,False,29.312,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_453,Republican Party,False,64.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_455,Democratic Party,False,35.6,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_457,Republican Party,False,91.056,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_463,Democratic Party,False,39.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_464,Republican Party,False,57.286,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_472,Republican Party,False,55.4,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_476,Republican Party,False,80.235,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_481,Democratic Party,True,31.316,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_485,Republican Party,True,85.2,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_489,Republican Party,True,89.684,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_497,Republican Party,False,67.833,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_500,Democratic Party,False,53.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_506,Democratic Party,False,36.75,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_513,Democratic Party,False,38.789,20.0,20.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_515,Democratic Party,False,17.053,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_521,Republican Party,True,91.15,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_522,Democratic Party,False,35.25,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_524,Democratic Party,False,38.526,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_530,Democratic Party,False,42.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_531,Republican Party,False,39.188,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_532,Republican Party,False,41.316,50.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_535,Democratic Party,False,49.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_536,Republican Party,True,91.048,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_545,Democratic Party,False,51.133,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_547,Republican Party,False,30.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_552,Democratic Party,False,47.9,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_555,Republican Party,False,83.105,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_557,Republican Party,True,78.0,55.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_561,Democratic Party,False,59.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_563,Democratic Party,True,46.143,10.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_573,Democratic Party,False,29.8,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_574,Democratic Party,False,8.35,0.0,0.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_579,Republican Party,True,66.167,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_580,Republican Party,False,68.158,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_582,Republican Party,False,57.583,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_585,Democratic Party,False,40.294,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_587,Republican Party,False,64.611,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_590,Republican Party,True,80.895,75.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_596,Democratic Party,True,23.95,10.0,90.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_598,Republican Party,False,83.85,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_600,Republican Party,False,62.842,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_602,Democratic Party,True,43.786,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_603,Democratic Party,False,31.765,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_604,Republican Party,False,54.143,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_608,Republican Party,False,67.722,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_617,Democratic Party,False,22.0,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_623,Republican Party,False,45.062,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_627,Republican Party,False,37.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_628,Democratic Party,False,22.762,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_630,Republican Party,True,81.667,100.0,100.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_638,Republican Party,False,84.15,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_640,Republican Party,True,81.7,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_641,Democratic Party,False,43.444,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_650,Republican Party,False,35.737,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_656,Democratic Party,True,26.833,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_659,Democratic Party,False,41.75,30.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_660,Democratic Party,False,54.158,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_665,Republican Party,True,82.45,35.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_666,Republican Party,False,60.944,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_668,Democratic Party,False,27.263,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_669,Republican Party,True,76.524,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_671,Democratic Party,True,10.381,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_673,Republican Party,False,60.85,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_679,Democratic Party,False,45.222,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_684,Democratic Party,False,24.4,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_686,Democratic Party,True,10.857,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_688,Democratic Party,False,58.583,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_695,Republican Party,False,59.474,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_696,Democratic Party,False,52.722,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_697,Democratic Party,False,54.125,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_698,Republican Party,False,64.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_700,Democratic Party,False,70.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_703,Republican Party,False,46.833,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_708,Democratic Party,False,51.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_710,Democratic Party,False,29.762,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_711,Republican Party,False,91.9,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_718,Democratic Party,False,47.778,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_725,Republican Party,False,53.211,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_727,Republican Party,False,33.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_728,Republican Party,False,51.4,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_730,Republican Party,True,82.667,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_732,Democratic Party,False,33.867,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_735,Republican Party,False,41.2,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_739,Democratic Party,True,18.35,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_746,Democratic Party,False,27.579,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_751,Republican Party,True,60.4,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_752,Republican Party,False,61.056,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_753,Republican Party,False,58.933,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_757,Democratic Party,True,24.0,10.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_761,Democratic Party,True,15.35,0.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_773,Republican Party,True,76.905,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_774,Democratic Party,True,17.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_776,Republican Party,False,70.316,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_782,Democratic Party,False,46.714,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_783,Republican Party,False,78.706,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_793,Democratic Party,False,29.722,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_803,Republican Party,False,61.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_810,Democratic Party,True,18.762,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_813,Democratic Party,True,15.526,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_814,Democratic Party,False,30.789,20.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_815,Democratic Party,False,48.789,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_816,Republican Party,True,40.619,35.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_819,Democratic Party,False,32.737,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_820,Democratic Party,False,45.2,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_821,Democratic Party,False,32.556,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_822,Democratic Party,False,44.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_825,Republican Party,False,63.375,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_829,Democratic Party,False,27.333,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_830,Republican Party,False,53.056,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_833,Republican Party,True,91.632,85.0,90.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_841,Republican Party,True,79.905,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_842,Democratic Party,False,57.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_855,Democratic Party,False,26.611,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_857,Democratic Party,False,42.611,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_871,Democratic Party,False,33.353,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_872,Republican Party,True,77.947,75.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_878,Republican Party,False,60.211,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_884,Republican Party,False,57.556,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_893,Democratic Party,False,35.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_895,Democratic Party,False,21.0,15.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_2,Republican Party,False,81.667,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_5,Democratic Party,False,43.75,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_8,Republican Party,True,74.188,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_11,Republican Party,False,54.222,35.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_14,Republican Party,True,82.316,75.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_25,Republican Party,True,43.65,25.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_27,Democratic Party,False,25.722,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_31,Democratic Party,False,23.111,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_33,Republican Party,False,47.385,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_39,Democratic Party,False,46.938,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_41,Democratic Party,True,16.714,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_44,Republican Party,False,53.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_47,Republican Party,False,58.167,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_51,Democratic Party,True,23.333,15.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_52,Democratic Party,False,57.571,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_54,Republican Party,False,87.857,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_59,Democratic Party,False,29.5,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_63,Republican Party,True,79.278,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_66,Republican Party,True,89.263,35.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_67,Democratic Party,False,50.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_71,Democratic Party,False,21.45,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_77,Democratic Party,True,34.471,15.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_83,Democratic Party,False,31.1,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_84,Democratic Party,False,71.211,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_85,Republican Party,True,81.211,15.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_91,Republican Party,False,73.158,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_93,Republican Party,False,69.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_94,Republican Party,False,52.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_95,Democratic Party,False,43.733,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_97,Republican Party,True,75.85,30.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_98,Democratic Party,True,22.526,15.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_105,Republican Party,True,84.45,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_108,Democratic Party,False,49.053,10.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_109,Republican Party,True,69.1,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_110,Democratic Party,False,43.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_112,Republican Party,True,86.3,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_113,Democratic Party,False,33.368,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_114,Democratic Party,False,33.059,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_115,Republican Party,False,50.722,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_117,Republican Party,True,81.421,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_125,Republican Party,True,73.842,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_129,Republican Party,True,77.7,30.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_133,Republican Party,False,72.842,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_141,Republican Party,False,65.688,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_142,Republican Party,False,62.263,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_152,Republican Party,True,85.857,75.0,100.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_154,Republican Party,True,89.053,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_158,Republican Party,True,77.65,95.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_159,Republican Party,False,53.15,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_160,Democratic Party,False,22.231,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_165,Republican Party,False,55.125,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_168,Democratic Party,False,39.533,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_169,Republican Party,True,88.471,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_173,Republican Party,True,72.095,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_177,Republican Party,True,79.95,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_179,Republican Party,False,68.35,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_180,Democratic Party,True,35.938,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_183,Democratic Party,True,34.632,90.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_184,Democratic Party,False,34.111,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_186,Republican Party,True,82.95,85.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_199,Republican Party,False,60.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_201,Democratic Party,False,49.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_207,Democratic Party,False,47.889,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_210,Democratic Party,False,41.632,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_211,Democratic Party,False,43.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_217,Democratic Party,True,12.737,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_218,Democratic Party,False,57.714,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_219,Democratic Party,False,20.188,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_226,Republican Party,True,75.15,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_230,Republican Party,False,50.412,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_235,Democratic Party,False,18.952,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_244,Republican Party,False,71.857,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_247,Democratic Party,False,19.2,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_248,Democratic Party,False,31.632,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_252,Democratic Party,False,38.471,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_253,Democratic Party,False,42.462,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_258,Democratic Party,False,33.636,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_260,Democratic Party,False,39.643,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_266,Democratic Party,False,30.2,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_267,Democratic Party,False,38.714,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_269,Democratic Party,True,48.611,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_276,Democratic Party,True,15.75,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_278,Democratic Party,False,40.533,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_283,Republican Party,True,87.316,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_284,Democratic Party,False,59.9,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_286,Republican Party,True,78.952,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_296,Republican Party,False,29.944,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_298,Republican Party,True,80.5,50.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_299,Republican Party,False,66.3,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_301,Republican Party,True,79.421,75.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_305,Democratic Party,False,29.053,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_310,Republican Party,False,42.238,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_311,Democratic Party,False,34.1,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_316,Republican Party,True,83.4,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_317,Republican Party,False,40.333,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_321,Republican Party,False,64.571,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_322,Republican Party,False,23.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_327,Republican Party,False,79.158,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_338,Republican Party,False,59.083,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_345,Democratic Party,False,53.4,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_350,Democratic Party,False,18.682,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_351,Democratic Party,True,21.263,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_355,Democratic Party,True,20.789,15.0,20.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_359,Republican Party,True,78.053,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_360,Democratic Party,False,43.095,20.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_361,Republican Party,False,80.5,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_364,Republican Party,False,59.875,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_373,Republican Party,True,82.0,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_377,Democratic Party,True,28.421,25.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_382,Democratic Party,True,23.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_383,Democratic Party,False,42.25,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_385,Republican Party,True,82.526,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_391,Republican Party,False,39.95,25.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_396,Republican Party,False,64.538,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_399,Republican Party,False,69.9,75.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_401,Democratic Party,False,46.421,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_402,Republican Party,True,83.75,75.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_409,Republican Party,False,60.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_426,Republican Party,False,59.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_427,Democratic Party,False,41.778,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_429,Democratic Party,False,50.882,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_434,Republican Party,False,58.2,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_439,Democratic Party,True,29.316,85.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_440,Republican Party,True,92.105,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_444,Republican Party,False,57.056,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_446,Republican Party,False,91.952,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_447,Democratic Party,False,43.5,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_451,Democratic Party,False,56.167,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_452,Democratic Party,False,12.905,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_456,Democratic Party,False,22.3,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_471,Republican Party,False,67.267,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_473,Republican Party,True,86.526,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_475,Democratic Party,False,30.474,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_479,Republican Party,True,74.81,75.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_480,Democratic Party,False,60.692,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_482,Democratic Party,False,12.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_483,Democratic Party,False,31.167,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_484,Democratic Party,False,27.882,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_486,Democratic Party,False,18.412,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_491,Democratic Party,False,61.474,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_492,Democratic Party,False,53.615,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_496,Republican Party,True,79.85,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_498,Republican Party,True,73.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_499,Democratic Party,False,16.842,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_501,Democratic Party,True,21.55,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_503,Republican Party,True,73.35,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_507,Democratic Party,False,55.429,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_511,Republican Party,True,86.45,75.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_516,Democratic Party,False,46.118,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_518,Republican Party,True,82.091,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_520,Republican Party,False,68.737,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_523,Democratic Party,False,49.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_527,Democratic Party,False,17.765,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_529,Democratic Party,True,20.55,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_538,Democratic Party,False,37.524,85.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_539,Republican Party,False,49.8,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_544,Republican Party,False,71.889,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_548,Republican Party,False,33.278,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_550,Republican Party,True,74.684,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_554,Democratic Party,False,28.053,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_562,Republican Party,True,71.375,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_565,Democratic Party,False,37.632,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_569,Democratic Party,True,30.105,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_575,Democratic Party,False,28.316,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_578,Republican Party,False,73.316,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_583,Republican Party,False,86.722,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_588,Republican Party,False,85.118,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_599,Republican Party,False,57.588,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_601,Democratic Party,False,48.286,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_605,Democratic Party,False,30.0,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_606,Republican Party,False,58.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_610,Democratic Party,False,35.412,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_611,Republican Party,False,61.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_612,Republican Party,False,68.8,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_613,Republican Party,False,61.364,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_614,Republican Party,True,76.286,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_616,Republican Party,False,81.158,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_618,Republican Party,True,82.211,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_629,Democratic Party,False,44.333,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_632,Republican Party,False,45.55,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_635,Republican Party,False,45.214,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_639,Democratic Party,False,55.438,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_645,Republican Party,False,44.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_653,Republican Party,False,70.667,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_664,Democratic Party,False,45.786,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_667,Republican Party,True,75.0,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_670,Democratic Party,False,41.263,55.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_672,Democratic Party,False,40.278,25.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_681,Republican Party,False,56.0,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_682,Democratic Party,False,34.533,25.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_690,Democratic Party,False,24.143,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_692,Democratic Party,False,22.647,15.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_693,Republican Party,False,55.75,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_701,Democratic Party,False,32.375,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_704,Democratic Party,False,61.5,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_715,Democratic Party,False,29.895,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_722,Democratic Party,False,62.929,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_723,Republican Party,False,49.75,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_724,Democratic Party,True,36.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_726,Republican Party,False,41.444,50.0,35.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_729,Republican Party,False,40.632,30.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_733,Democratic Party,False,35.533,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_736,Democratic Party,True,54.562,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_740,Republican Party,False,75.75,85.0,95.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_744,Democratic Party,False,31.462,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_747,Democratic Party,False,15.526,15.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_748,Republican Party,True,83.65,75.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_750,Democratic Party,False,49.111,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_754,Democratic Party,True,35.842,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_755,Democratic Party,True,18.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_759,Republican Party,False,52.6,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_765,Republican Party,False,88.529,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_768,Republican Party,False,64.333,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_771,Democratic Party,True,40.647,10.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_780,Republican Party,True,81.333,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_786,Democratic Party,False,72.067,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_790,Democratic Party,False,38.188,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_791,Republican Party,True,66.632,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_795,Democratic Party,False,46.81,35.0,25.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_796,Republican Party,False,70.0,30.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_797,Republican Party,True,79.053,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_801,Republican Party,False,49.533,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_804,Republican Party,True,79.368,30.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_811,Republican Party,False,91.4,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_818,Republican Party,False,30.111,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_823,Republican Party,False,51.733,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_828,Republican Party,False,69.667,30.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_834,Republican Party,True,84.7,85.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_836,Republican Party,False,70.778,50.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_840,Republican Party,False,70.429,50.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_858,Democratic Party,False,30.842,25.0,15.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_860,Democratic Party,False,37.5,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_861,Republican Party,False,38.818,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_863,Republican Party,False,77.81,50.0,55.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_864,Republican Party,False,44.625,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,False
+lemens_tweet_866,Democratic Party,False,32.667,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_869,Republican Party,True,70.429,75.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_873,Democratic Party,False,40.727,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_875,Republican Party,False,53.375,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_882,Democratic Party,False,18.0,10.0,10.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_883,Republican Party,True,87.833,100.0,100.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_885,Republican Party,False,88.75,100.0,100.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_886,Democratic Party,False,29.632,25.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_887,Republican Party,True,79.737,85.0,85.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_888,Republican Party,False,48.263,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_889,Republican Party,True,78.895,85.0,95.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_890,Republican Party,False,68.684,75.0,75.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_891,Republican Party,False,53.6,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_898,Republican Party,False,41.714,30.0,30.0,open-new,Nemotron 3.5 Lightning 30B,True
+lemens_tweet_899,Democratic Party,False,56.438,50.0,50.0,open-new,Nemotron 3.5 Lightning 30B,True

@@ -1,85 +1,79 @@
-# Party names in the text and LLM position coding
+# Party names in the text and AI ratings of political statements
 
-Quick experiment, October 2026. Does it matter for LLM-based scaling if the text names a party or a politician?
+Quick experiment, October 2026. How AI models classify political statements as left- or right-leaning depends a lot on whether the statement names a party.
 
-Short answer: for tweets, yes.
-
-- Data: congressional tweets with 0 (left) to 100 (right) ratings from people, collected by Le Mens and Gallego (2025). 500 of them, scored by eight LLMs.
-- 144 of the 500 name a party or politician. On those, the four commercial models spread Republicans and Democrats 9–13 points further apart than the people did.
-- Swap the names for `[PARTY]` / `[POLITICIAN]` and rerun: most of that excess goes away.
-- Tweets without names were run twice as well. They hardly move. Not noise, then.
-- UK manifestos (expert codes, Benoit et al. 2016): same for the open-weight models, weaker for the commercial ones.
-
-For anyone placing statements (not speakers) with LLMs: try masking names and see whether your numbers move. Caveat, names are sometimes content. "Biden's inflation" reads right-wing partly because of the name. On named tweets masking costs 1–4 points of accuracy against the human ratings.
-
-One run per model, two corpora. First look, not a paper.
-
-## Results
-
-### Tweets
-
-![Extra Republican-Democratic distance, model minus human raters](figures/01_tweets_excess_separation.png)
-
-Plotted per model: Republican minus Democratic, in (model score − mean human rating). Positive = model pulls the parties further apart than people did.
-
-| | as written | masked |
-|---|---|---|
-| commercial, named tweets | +9.0 to +12.8 | −1.8 to +2.9 (CIs include 0) |
-| commercial, tweets w/o names | about +5 | about +5 |
-| Gemma 4 31B, Qwen3 30B | about +10 | −5 to −13 |
-| Qwen3.6 27B, Qwen3.6 35B-A3B | +4, −2 | −6, −17 |
-
-Reading this: there's over-separation even without names; names about double it. Open-weight models are mixed, and after masking they all land below the human gap (my guess: masking removes stuff raters used).
-
-NA check. Models can say "NA" (not political); I code it as 50. Masking makes NA more frequent (Gemma 4 on named tweets: 3% → 18%), which shrinks the gap mechanically. Dropping tweets with NA in either run, commercial models: +9.6 to +17.0 named, +1.1 to +8.3 masked. GPT-5.6 Terra keeps 8.3 (4.2–12.3). So: most of the gap, not all of it.
-
-Two examples. A Republican's tweet blaming "Democrats' failed economic policies" for grocery prices: raters 75, commercial models 88 on average, 74 with the name masked. A Democrat's tweet about "@VetAffairsDems legislation" on emergency mental health care for veterans: 46 / 28 / 46.
+For example, a Republican tweet blames "Democrats' failed economic policies." Human coders rated it, on average, 75 on a scale from 0 to 100, where 100 is most right-wing. AI models rated it 88. If we give the same tweet to the same models but replace "Democrats" with `[PARTY]`, they rate it almost exactly where human coders put it (74).
 
 ![Two example tweets](figures/02_example_tweets.png)
 
-### Manifestos
+## Names in tweets
 
-![Conservative-minus-Labour gap, open-weight models](figures/03_party_gap_named.png)
+I asked 11 AI models to rate tweets by members of Congress that human coders had already rated (Le Mens and Gallego 2025). Tweets that name a party or politician (144 of 500) were rated twice: once as written, and once with the names masked as `[PARTY]` or `[POLITICIAN]`.
 
-Sentences whose passage names a party or politician only, same expert code:
+For some models, the names make Republican and Democratic tweets look much further apart on the left-right scale. For others, the names push them apart much less.
 
-- open-weight models put Tory sentences 0.50–0.76 steps (5-point economic scale) right of Labour ones; masked, −0.05 to 0.18 (CIs include 0)
-- commercial models: same sign, 0.06–0.20
-- but the commercial ones do it with no names in the passage too (Claude Sonnet 5: 0.74 steps). For them it's mostly not names, which is why the figure is open-weight only
+![How much showing names pushes the parties apart](figures/05_names_push_apart.png)
 
-Everything, social scale included: [`results/benoit_masking.csv`](results/benoit_masking.csv).
+Numbers: 6 points (Gemini 3.8 Flash) to 23 points (Qwen3 30B). Placebo (tweets without names, also rated twice): under 2 points for every model.
+
+How does this compare to human coders who also saw the names? With names, six of the eleven models put Republicans' and Democrats' tweets further apart than human coders did. With names masked, that extra distance disappears, and some models put them closer together than human coders did.
+
+However, this doesn't necessarily mean the masked version is right. Without names, every model's ratings of individual tweets agree less with human coders, who saw the names. Masking clearly changes what the models do, but it's not obvious to me whether masked or unmasked ratings are more desirable.
+
+![Distance between the parties, model minus human coders](figures/01_tweets_excess_separation.png)
+
+Numbers: with names, the six models are 9 to 13 points above the human coders. Masked: commercial models −2 to +3 (GPT-6.1 Sol −5), open-weight models −5 to −24. Mean absolute error vs. human coders, masked minus as written: +1.1 to +5.3.
+
+## Telling the model to ignore names
+
+Vallejo Vera and Driggers (2025) found that adding party labels to statements changed AI ratings. They also found that telling the model to ignore the labels doesn't fix the shift. I tried the same with names in tweets.
+
+For some models, like GPT-5.6 and Gemini, telling models to simply ignore names removed most of the extra distance, as masking did. Others, like Claude and DeepSeek, barely reacted to this additional instruction. GPT-6.1 Sol went past zero. Instructions such as "ignore the names" work for some models and not others, so they are not a reliable fix.
+
+![Told to ignore names](figures/04_ignore_instruction.png)
+
+## Do people react to party labels too?
+
+The clear next question is whether showing or hiding party labels makes as much of a difference to AI models as to humans. The tweet coders always saw the names, so I used a 2016 study by Benoit and colleagues in which experts rated UK manifesto sentences twice: first with the party's manifesto title shown and later without it. I did the same with the models (1,033 economic-policy sentences from 12 manifestos). Knowing the party moved six of the eleven models about as much as the experts. Two, GPT-6.1 Sol and Gemini, barely responded, and the rest responded more (Qwen3 30B about four times as much).
+
+If we take changed ratings due to showing or hiding party labels as a natural part of how humans perceive political statements, some AI models show somewhat similar behavior. However, AI models vary much more in how strongly they respond: from barely at all to several times as much as the experts.
+
+One caveat: the expert comparison is not randomized. Experts saw the title first and coded again without it about a year later, so their difference also contains order and time.
+
+![Party label effect, models vs. experts](figures/06_party_label_vs_experts.png)
+
+## Should we mask names?
+
+Using AI to read political texts raises an interesting question: should the model use the names or not? The names carry information that people themselves use when rating these statements, and the same statement by a Republican or a Democratic politician may convey a different meaning.
+
+Others have recommended masking names (Walker and Angst 2025; Elbouanani et al. 2025). However, humans respond to party labels too.
+
+Whether to mask names depends on how much researchers think the speaker changes the meaning of a statement. For researchers who study how people perceive or respond to political statements, for example as a treatment in studies of attitudes or behavior, keeping the names seems the better choice, since people see who is speaking. If researchers want to measure only what the text says, masking seems the better choice.
+
+In any event, it makes sense to run at least a robustness check in which a subset of statements is coded with names hidden, so the reader can see how much of a difference this makes for the analysis.
+
+One run per model. First look, not a paper.
 
 ## Design
 
-- Tweets: 899 congressional tweets, ~16 ratings each (Le Mens and Gallego 2025). Raters saw names in the text, not the author. Seeded sample of 500.
-- Manifestos: 18 Con/Lab/LD manifestos, 1987–2010; 3–7 expert coders per sentence, 5-point economic and social scales (Benoit et al. 2016). Benchmark = modal code, ties dropped. 500 sentences per scale, with up to two sentences of context.
-- Masking: [`code/01_mask_names.py`](code/01_mask_names.py), regexes. Parties → `[PARTY]`, politicians (names, handles, hashtags like #BidenFlation) → `[POLITICIAN]`. Lower-case "conservative values" etc. stays. No name = identical text = placebo.
-- Open-weight models: Gemma 4 31B, Qwen3.6 27B, Qwen3.6 35B-A3B, Qwen3 30B-A3B. vLLM, via [polsci-open-bench](https://github.com/hhilbig/polsci-open-bench), all 500 items.
-- Commercial: Gemini 3.8 Flash, DeepSeek V4 Pro, GPT-5.6 Terra, Claude Sonnet 5 (OpenRouter). All named items + random 25% of the others. Cost ~$7.
-- Prompts in [`prompts/`](prompts/), identical across models, JSON out. Temp 0 for open-weight + DeepSeek, default for the rest; reasoning off/minimal.
-- 95% CIs: 2,000 bootstrap draws (tweets resampled, or whole manifestos).
-
-Limits:
-
-- one run per model
-- humans and experts saw the names too. So: LLM vs. a person reading the same text, not vs. a name-free truth
-- the regexes were written for these two corpora and surely miss a few names (bias toward 0, if anything)
-
-## Related work
-
-Closest: Vallejo Vera and Driggers (2025, *Humanities and Social Sciences Communications*; [arXiv](https://arxiv.org/abs/2408.15895)). Party labels added to Austrian immigration statements; LLM annotators shifted more than human coders. Fits with this. Differences here: names already in the texts, continuous scale, masking + placebo, human/expert codes of the same texts.
-
-Humans respond to party cues too (Benoit et al. 2016; Ennser-Jedenastik and Meyer 2018). Masking or replacing names before LLM annotation has been suggested before (Walker and Angst 2025; Elbouanani et al. 2025). Jeoung et al. (2025) find LLMs exaggerate party positions relative to survey respondents.
+- Tweets: 500 of the 899 in Le Mens and Gallego (2025), about 16 human ratings each. Commercial models rated the 144 named tweets plus 89 others.
+- Manifestos: Conservative, Labour and Liberal Democrat manifestos, 1987–2010, expert codes from Benoit et al. (2016).
+- Commercial models: Gemini 3.8 Flash, DeepSeek V4 Pro, GPT-5.6 Terra, Claude Sonnet 5, GPT-6.1 Sol (OpenRouter).
+- Open-weight models: Gemma 4 31B, Qwen3.6 27B, Qwen3.6 35B-A3B, Qwen3 30B-A3B, Qwen3.8 27B, Nemotron 3.5 Lightning 30B (vLLM, via [polsci-open-bench](https://github.com/hhilbig/polsci-open-bench)).
+- Masking by regex: [`code/01_mask_names.py`](code/01_mask_names.py). Prompts in [`prompts/`](prompts/).
+- Ignore instruction, appended to the prompt: "The text may name political parties or politicians. Judge only the position the text itself expresses. Do not let the names, or anything you know about those parties or people, affect your answer."
+- 95% intervals: 2,000 bootstrap draws.
+- [`results/`](results/): all estimates. Also masking in manifesto sentences (figure 3), and the tweet results without "not political" answers.
 
 ## Reproducing
 
 ```bash
 python3 code/01_mask_names.py --check   # rebuilds the masked files and compares
-python3 code/02_analyze.py              # estimates -> results/ (a few minutes)
+python3 code/02_analyze.py              # estimates -> results/
 Rscript code/03_figures.R               # -> figures/
 ```
 
-`predictions/` has every model answer (group, model, `orig`/`masked`, item, prediction, raw output). [`code/00_export_predictions.py`](code/00_export_predictions.py) pulled them out of the benchmark runs. [`code/run_commercial_models.py`](code/run_commercial_models.py) is what ran the commercial models; it only works inside polsci-open-bench. Needs pandas and numpy; for the figures, dplyr, ggplot2, readr and scales.
+`predictions/` has every model answer. [`code/run_commercial_models.py`](code/run_commercial_models.py) ran the commercial models; it only works inside polsci-open-bench.
 
 ## Data
 

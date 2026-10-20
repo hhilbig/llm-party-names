@@ -46,85 +46,76 @@ save_fig <- function(plot, stem, width, height) {
   stopifnot(file.info(pdf_path)$size > 5000, file.info(png_path)$size > 10000)
 }
 
-benoit <- read_csv(file.path(input_dir, "benoit_masking.csv"), show_col_types = FALSE) %>%
-  filter(group == "open-weight")
+benoit <- read_csv(file.path(input_dir, "benoit_masking.csv"), show_col_types = FALSE)
 tweets <- read_csv(file.path(input_dir, "tweet_masking.csv"), show_col_types = FALSE) %>%
-  mutate(group = recode(group, commercial = "Commercial", `open-weight` = "Open-weight"))
+  mutate(group = recode(group, commercial = "Commercial", flagship = "Commercial",
+                        `open-weight` = "Open-weight", `open-new` = "Open-weight"))
 tweet_items <- read_csv(file.path(input_dir, "tweet_items.csv"), show_col_types = FALSE) %>%
-  filter(group == "commercial")
+  filter(group %in% c("commercial", "flagship"), model != "GPT-6.1 Sol")
 
 model_order <- benoit %>%
   filter(domain == "economic", passage == "named") %>%
   arrange(con_lab_error_gap_orig) %>%
   pull(model)
 
+# Reading guide under the x-axis zero line, placed in the bottom panel(s).
+axis_guide <- function(group, versions) {
+  tidyr::expand_grid(version = factor(versions, levels = versions),
+                     tibble(x = c(0, 0), hjust = c(1.05, -0.05),
+                            label = c("\u2190 less apart", "more apart \u2192"))) %>%
+    mutate(group = group)
+}
+
 # Figure 1: Republican-minus-Democratic error gap against the human raters
 # (model minus mean human rating), tweets that name someone, as written and
-# masked; tweets without names as the reference.
+# masked. Rows: commercial and open-weight models; columns: the two versions.
 excess <- bind_rows(
   tweets %>% filter(passage == "named") %>%
     transmute(group, model, version = "Names shown", est = rep_dem_error_gap_orig,
               lo = gap_orig_lo, hi = gap_orig_hi),
   tweets %>% filter(passage == "named") %>%
     transmute(group, model, version = "Names masked", est = rep_dem_error_gap_mask,
-              lo = gap_mask_lo, hi = gap_mask_hi),
-  tweets %>% filter(passage != "named") %>%
-    transmute(group, model, version = "Tweets without names", est = rep_dem_error_gap_orig,
-              lo = gap_orig_lo, hi = gap_orig_hi)
+              lo = gap_mask_lo, hi = gap_mask_hi)
 )
 excess_order <- excess %>%
   filter(version == "Names shown") %>%
   arrange(group, est) %>%
   pull(model)
 excess <- excess %>%
-  mutate(
-    model = factor(model, levels = rev(excess_order)),
-    version = factor(version, levels = c("Names shown", "Names masked", "Tweets without names")),
-    y = as.numeric(model) + c(0.25, 0, -0.25)[as.integer(version)]
-  )
-fig_ex <- ggplot(excess, aes(est, y, color = version, shape = version)) +
+  mutate(model = factor(model, levels = excess_order),
+         version = factor(version, levels = c("Names shown", "Names masked")))
+fig_ex <- ggplot(excess, aes(est, model, color = version)) +
   geom_vline(xintercept = 0, color = "grey60", linewidth = 0.5) +
-  geom_segment(aes(x = lo, xend = hi, yend = y), linewidth = 0.8) +
-  geom_point(size = 2.9, fill = "white", stroke = 1.1) +
-  facet_grid(group ~ ., scales = "free_y", space = "free_y", switch = "y") +
-  scale_color_manual(values = c("Names shown" = DARK, "Names masked" = GREY,
-                                "Tweets without names" = "grey65")) +
-  scale_shape_manual(values = c("Names shown" = 16, "Names masked" = 16,
-                                "Tweets without names" = 21)) +
-  scale_y_continuous(breaks = seq_along(excess_order), labels = rev(excess_order),
-                     expand = expansion(add = 0.5)) +
-  scale_x_continuous(expand = expansion(mult = 0.04)) +
+  geom_errorbar(aes(xmin = lo, xmax = hi), width = 0, linewidth = 0.8, orientation = "y") +
+  geom_point(size = 2.9) +
+  geom_text(data = axis_guide("Open-weight", c("Names shown", "Names masked")),
+            aes(x = x, y = -Inf, label = label, hjust = hjust), inherit.aes = FALSE,
+            vjust = -0.7, size = 3.6, color = "grey35", family = "Helvetica") +
+  facet_grid(group ~ version, scales = "free_y", space = "free_y") +
+  scale_color_manual(values = c("Names shown" = DARK, "Names masked" = GREY)) +
+  scale_y_discrete(expand = expansion(add = c(1.2, 0.6))) +
   labs(
-    title = "With names in the tweet, LLMs read more party into it",
-    subtitle = paste0(
-      "How much further apart the model places Republican and Democratic tweets\n",
-      "than human raters did (points on a 0-100 left-right scale)"
-    ),
-    x = "Extra Republican-Democratic distance, model minus human raters (points)", y = NULL,
+    x = "Distance between the parties, model minus human coders (points)",
+    y = NULL,
     caption = paste0(
-      "144 tweets by members of Congress that name a party or politician (Le Mens and Gallego). Human raters saw the tweets\n",
-      "with the names. Masked: names replaced by [PARTY] or [POLITICIAN], everything else identical. Tweets without names:\n",
-      "89 (commercial) and 356 (open-weight) sampled tweets. Not-political answers scored as 50. 95% intervals, bootstrap over tweets."
+      "144 tweets by members of Congress that name a party or politician (Le Mens and Gallego); human coders saw the names.\n",
+      "0-100 left-right scale. Masked: names replaced by [PARTY] or [POLITICIAN]. 95% intervals."
     )
   ) +
   theme_clara_twitter() +
-  theme(
-    strip.placement = "outside", strip.text.y.left = element_text(angle = 0, vjust = 1),
-    legend.position = "top", legend.justification = "left", legend.title = element_blank(),
-    legend.text = element_text(size = 12), legend.margin = margin(0, 0, 0, 0)
-  )
-save_fig(fig_ex, "01_tweets_excess_separation", width = 9.5, height = 6.4)
+  theme(strip.text.y = element_text(angle = 0, hjust = 0), panel.spacing = unit(0.8, "lines"))
+save_fig(fig_ex, "01_tweets_excess_separation", width = 10, height = 6)
 
 # Figure 2: two example tweets, commercial models with the name shown and masked
 # against the mean human rating.
 examples <- tibble(
-  item_id = c("lemens_tweet_226", "lemens_tweet_150"),
+  item_id = c("lemens_tweet_226", "lemens_tweet_183"),
   text = c(
     "Republican: \"...Democrats' failed economic policies are hurting you.\"",
-    "Democrat: \"...@VetAffairsDems legislation ensuring all veterans [get] mental health care\""
+    "Democrat: \"...Kevin McCarthy once again playing the part of criminal defense counsel...\""
   )
 )
-rows <- c("People", "LLMs", "LLMs, name masked")
+rows <- c("Human coders", "AI models", "AI models, names masked")
 ex <- tweet_items %>%
   inner_join(examples, by = "item_id") %>%
   select(text, model, human_position_mean, score_orig, score_mask)
@@ -140,7 +131,6 @@ ex_mean <- ex_long %>% group_by(text, row) %>% summarise(score = mean(score), .g
 fig_example <- ggplot(ex_long, aes(score, row, color = row)) +
   geom_vline(data = ex_mean %>% filter(row == rows[1]),
              aes(xintercept = score), color = "grey80", linewidth = 0.5) +
-  geom_point(data = ex_long %>% filter(!is.na(model)), size = 2, alpha = 0.45) +
   geom_point(data = ex_mean, size = 4.2, shape = 18) +
   geom_text(data = ex_mean, aes(label = round(score)), vjust = -1, size = 3.8,
             fontface = "bold", family = "Helvetica") +
@@ -151,7 +141,7 @@ fig_example <- ggplot(ex_long, aes(score, row, color = row)) +
   scale_y_discrete(expand = expansion(add = 0.7)) +
   labs(
     x = "Left-right position of the tweet (0-100)", y = NULL,
-    caption = "Large marks: mean of four commercial LLMs; small marks: each model. People: mean rating (Le Mens and Gallego)."
+    caption = "AI models: mean of four commercial models. Human coders: mean rating (Le Mens and Gallego)."
   ) +
   theme_clara_twitter() +
   theme(strip.text = element_text(face = "plain", size = 12, margin = margin(t = 8, b = 4)))
@@ -196,9 +186,132 @@ fig1 <- ggplot(gap_long, aes(est, y, color = version)) +
     x = "Conservative minus Labour (scale steps)", y = NULL,
     caption = paste0(
       "192 of 500 sampled sentences whose passage names a party or politician. Masked: names replaced by [PARTY] or [POLITICIAN],\n",
-      "everything else identical. Experts saw the same passages, names included, but not which manifesto they came from\n",
-      "(Benoit et al. 2016). Gap net of the expert code and expert mean. 95% intervals, bootstrap over manifestos."
+      "everything else identical. Experts saw the same passages, names included, and for about 80% of their codes also\n",
+      "the manifesto title (Benoit et al. 2016). Gap net of the expert code and expert mean. 95% intervals, bootstrap over manifestos."
     )
   ) +
   theme_clara_twitter()
-save_fig(fig1, "03_party_gap_named", width = 9, height = 5.4)
+save_fig(fig1, "03_party_gap_named", width = 9, height = 7.6)
+
+# Figure 4: the instruction to ignore names next to masking. Named tweets only:
+# extra Republican-Democratic distance against the human raters, as written,
+# with the instruction, and with names masked.
+ign_path <- file.path(input_dir, "ignore_instruction_tweets.csv")
+if (file.exists(ign_path)) {
+  conds <- c(orig = "As written", ignore = "Told to ignore names", mask = "Names masked")
+  ign <- read_csv(ign_path, show_col_types = FALSE) %>%
+    filter(passage == "named", group %in% c("commercial", "flagship"))
+  ign_long <- bind_rows(lapply(names(conds), function(v) {
+    ign %>% transmute(model, version = conds[[v]],
+                      est = .data[[paste0("rep_dem_error_gap_", v)]],
+                      lo = .data[[paste0("lo_", v)]], hi = .data[[paste0("hi_", v)]])
+  }))
+  ign_order <- ign_long %>% filter(version == "As written") %>% arrange(est) %>% pull(model)
+  ign_long <- ign_long %>%
+    mutate(
+      model = factor(model, levels = rev(ign_order)),
+      version = factor(version, levels = conds),
+      y = as.numeric(model) + c(0.25, 0, -0.25)[as.integer(version)]
+    )
+  fig_ign <- ggplot(ign_long, aes(est, y, color = version)) +
+    geom_vline(xintercept = 0, color = "grey60", linewidth = 0.5) +
+    geom_segment(aes(x = lo, xend = hi, yend = y), linewidth = 0.8) +
+    geom_point(size = 2.9) +
+    scale_color_manual(values = setNames(c(DARK, "#d08a2e", GREY), conds)) +
+    geom_text(data = tibble(x = c(0, 0), hjust = c(1.05, -0.05),
+                            label = c("\u2190 less apart", "more apart \u2192")),
+              aes(x = x, y = -Inf, label = label, hjust = hjust), inherit.aes = FALSE,
+              vjust = -0.7, size = 3.8, color = "grey35", family = "Helvetica") +
+    scale_y_continuous(breaks = seq_along(ign_order), labels = rev(ign_order),
+                       expand = expansion(add = c(1, 0.5))) +
+    labs(
+      x = "Distance between the parties, model minus human coders (points)",
+      y = NULL,
+      caption = "Commercial models, 144 tweets that name a party or politician. 0-100 left-right scale. 95% intervals."
+    ) +
+    theme_clara_twitter() +
+    theme(
+      legend.position = "top", legend.justification = "left", legend.title = element_blank(),
+      legend.text = element_text(size = 12), legend.margin = margin(0, 0, 0, 0),
+      axis.title.x = element_text(size = 11.5)
+    )
+  n_models <- length(ign_order)
+  save_fig(fig_ign, "04_ignore_instruction", width = 9.5, height = 2.2 + 0.75 * n_models)
+}
+
+# Figure 5: how much the names push Republican and Democratic tweets apart in each
+# model (as written minus masked; the negative of rep_minus_dem_change), named
+# tweets only.
+push <- tweets %>%
+  filter(passage == "named") %>%
+  transmute(model, push = -rep_minus_dem_change, push_lo = -hi, push_hi = -lo) %>%
+  arrange(push) %>%
+  mutate(model = factor(model, levels = model))
+stopifnot(nrow(push) == 11, all(push$push_lo > 0), all(push$push_hi > push$push))
+
+fig_push <- ggplot(push, aes(x = push, y = model)) +
+  geom_vline(xintercept = 0, color = "grey60") +
+  geom_errorbar(aes(xmin = push_lo, xmax = push_hi), width = 0, linewidth = 0.9, orientation = "y", color = DARK) +
+  geom_point(size = 3.2, color = DARK) +
+  annotate("text", x = Inf, y = -Inf, label = "more different \u2192", hjust = 1.05, vjust = -0.7,
+           size = 3.8, color = "grey35", family = "Helvetica") +
+  scale_x_continuous(limits = c(0, NA), expand = expansion(mult = c(0, 0.04))) +
+  scale_y_discrete(expand = expansion(add = c(1.2, 0.6))) +
+  labs(
+    title = "What happens if we hide or show names in political statements?",
+    x = "How much showing names pushes the parties apart (points)",
+    y = NULL,
+    caption = "144 tweets that name a party or politician, rated as written and with the names masked. 0-100 left-right scale. 95% intervals."
+  ) +
+  theme_clara_twitter()
+
+save_fig(fig_push, "05_names_push_apart", width = 8.5, height = 5.6)
+
+# Figure 6: telling the model which party wrote a manifesto sentence ("Source:
+# Conservative Party manifesto, 1992" above the passage), next to expert coders
+# who coded the same sentences with and without the title. Common set of 1,033
+# sentences coded by all 11 models; colour by the model-minus-experts interval.
+title_path <- file.path(input_dir, "title_effects.csv")
+if (file.exists(title_path)) {
+  RED <- "#b5482f"
+  ttl <- read_csv(title_path, show_col_types = FALSE) %>%
+    filter(sentences == "common") %>%
+    mutate(
+      vs = case_when(coder == "Experts" ~ "Expert coders",
+                     minus_experts_lo > 0 ~ "More than experts",
+                     minus_experts_hi < 0 ~ "Less than experts",
+                     TRUE ~ "About the same as experts"),
+      coder = if_else(coder == "Experts", "Expert coders", coder)
+    ) %>%
+    arrange(party_effect) %>%
+    mutate(coder = factor(coder, levels = coder))
+  stopifnot(nrow(ttl) == 12, n_distinct(ttl$n) == 1)
+  expert <- ttl %>% filter(coder == "Expert coders")
+  fig_title <- ggplot(ttl, aes(party_effect, coder, color = vs)) +
+    annotate("rect", xmin = expert$lo, xmax = expert$hi, ymin = -Inf, ymax = Inf,
+             fill = "grey92") +
+    geom_vline(xintercept = expert$party_effect, color = "grey55", linetype = "dashed") +
+    geom_vline(xintercept = 0, color = "grey60") +
+    geom_errorbar(aes(xmin = lo, xmax = hi), width = 0, linewidth = 0.9, orientation = "y") +
+    geom_point(size = 3.2) +
+    scale_color_manual(values = c("Expert coders" = "black", "More than experts" = RED,
+                                  "Less than experts" = DARK,
+                                  "About the same as experts" = GREY),
+                       breaks = c("More than experts", "About the same as experts",
+                                  "Less than experts")) +
+    annotate("text", x = Inf, y = -Inf, label = "more different \u2192", hjust = 1.05, vjust = -0.7,
+             size = 3.8, color = "grey35", family = "Helvetica") +
+    scale_y_discrete(expand = expansion(add = c(1.2, 0.6))) +
+    labs(
+      x = "How much showing the party pushes the parties apart (points)",
+      y = NULL,
+      caption = paste0(
+        format(expert$n, big.mark = ","), " economic-policy sentences from 12 UK manifestos (Benoit et al. 2016), 5-point left-right scale.\n",
+        "Colour: compared with experts, 95% interval."
+      )
+    ) +
+    theme_clara_twitter() +
+    theme(legend.position = "top", legend.justification = "left", legend.title = element_blank(),
+          legend.text = element_text(size = 11.5), legend.margin = margin(0, 0, 0, 0))
+  save_fig(fig_title, "06_party_label_vs_experts", width = 9, height = 5.8)
+}

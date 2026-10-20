@@ -31,7 +31,30 @@ answers scored as 50):
 
 Reads data/ and predictions/, writes results/benoit_masking.csv,
 results/tweet_masking.csv, results/tweet_masking_scored_only.csv and
-results/tweet_items.csv.
+results/tweet_items.csv. When predictions/ holds the commercial models'
+"ignore" condition (text as written, prompt told to ignore names), also
+results/ignore_instruction_tweets.csv and results/ignore_instruction_benoit.csv.
+
+Manifesto title hidden vs shown (economic scale; predictions/
+benoit_title_economic_position.csv, data/benoit_title_human_codes.csv): does
+being told which party wrote a sentence move its code, for models and for people?
+- shift = code with "Source: <party> manifesto, <year>" above the passage minus
+  code without it, per sentence. Party effect: mean shift for Conservative minus
+  mean shift for Labour sentences. Positive = knowing the party pushes the two
+  parties' sentences apart.
+- Experts coded each sentence twice: first in manifesto order with the title
+  shown, about a year later in random order without it. Their shift is per
+  coder, averaged over coders of a sentence. It therefore also contains any
+  effect of order and time.
+- Semi-experts were randomly shown the title or not; their shift is mean code
+  shown minus mean code hidden per sentence (57 sentences, 4 manifestos).
+- Sentence sets: "common" = expert-pair sentences coded by all 11 models (a random
+  1,033, since the commercial models coded a subset); "all expert pairs" = all
+  3,665 (open-weight models only); "semi-expert experiment" = the 57.
+- Model minus experts: difference of party effects on the same sentences.
+- 95% intervals from a bootstrap over manifestos (over sentences within party
+  for the semi-expert set, which has only 4 manifestos).
+Writes results/title_effects.csv.
 """
 from pathlib import Path
 
@@ -45,6 +68,10 @@ N_BOOT = 2000
 GROUPS = {
     "open-weight": ["Gemma 4 31B", "Qwen3.6 27B", "Qwen3.6 35B-A3B", "Qwen3 30B"],
     "commercial": ["Gemini 3.8 Flash", "DeepSeek V4 Pro", "GPT-5.6 Terra", "Claude Sonnet 5"],
+    # its own group (and seed), so adding it left the other groups' intervals unchanged
+    "flagship": ["GPT-6.1 Sol"],
+    # newer open-weight models, added 2026-10-18 with their own seed
+    "open-new": ["Qwen3.8 27B", "Nemotron 3.5 Lightning 30B"],
 }
 CODES = {
     "economic": {"very left": -2, "somewhat left": -1, "neither left nor right": 0,
@@ -198,10 +225,151 @@ def tweet_scored_only(items):
     return pd.DataFrame(rows)
 
 
+def triple(task, model):
+    """Commercial-model items with all three versions: as written, masked, and as
+    written with the instruction to ignore names (condition "ignore")."""
+    p = pd.read_csv(REPO / "predictions" / f"{task}.csv")
+    p = p[p.model == model].replace({"condition": {"masked": "mask"}})
+    w = p.pivot(index="item_id", columns="condition", values=["prediction", "parse_error"])
+    w.columns = [f"{a}_{b}" for a, b in w.columns]
+    f = w.reset_index().merge(pd.read_csv(REPO / "data" / f"{task}_masked.csv"),
+                              left_on="item_id", right_on="source_id", validate="one_to_one")
+    f = f[f[["prediction_orig", "prediction_mask", "prediction_ignore"]].notna().any(axis=1)
+          | f.filter(like="parse_error").notna().any(axis=1)]
+    bad = f.filter(like="parse_error").apply(
+        lambda c: c.astype(str).str.startswith(("call_failed", "parse_fail", "invalid"))).any(axis=1)
+    if bad.any():
+        print(f"{model} {task}: dropping {int(bad.sum())} items with a failed call or parse")
+    return f[~bad]
+
+
+def ignore_results():
+    """Does telling the model to ignore names do what masking does?
+
+    Every model with an "ignore" run. For each condition (as written, masked, as written
+    with the instruction), the same error gaps as above: Republican-minus-
+    Democratic for tweets, Conservative-minus-Labour for manifestos, with the
+    same bootstraps.
+    """
+    conds = ("orig", "mask", "ignore")
+    tweets, benoit = [], []
+    p = pd.read_csv(REPO / "predictions" / "lemens_gallego_tweet_position.csv")
+    with_ignore = set(p.loc[p.condition == "ignore", "model"])
+    for model in [m for ms in GROUPS.values() for m in ms if m in with_ignore]:
+        group = next(g for g, ms in GROUPS.items() if model in ms)
+        # one seed per model, so adding a model leaves the others' intervals unchanged
+        np.random.seed(SEED + 2 + sum(map(ord, model)))
+        f = triple("lemens_gallego_tweet_position", model)
+        f["rep"] = f.source_party == "Republican Party"
+        for v in conds:
+            na = f[f"parse_error_{v}"].astype(str).eq("not_applicable")
+            f[f"na_{v}"] = na
+            f[f"err_{v}"] = (pd.to_numeric(f[f"prediction_{v}"], errors="coerce").where(~na, 50.0)
+                             - f.human_position_mean)
+        gap = lambda g, c: g.loc[g.rep, c].mean() - g.loc[~g.rep, c].mean()
+        stat = lambda g: [gap(g, f"err_{v}") for v in conds]
+        for named, g in f.groupby("masked_changed"):
+            boot = [stat(g.sample(len(g), replace=True)) for _ in range(N_BOOT)]
+            lo, hi = np.percentile(np.array(boot), [2.5, 97.5], axis=0)
+            row = {"group": group, "model": model,
+                   "passage": "named" if named else "unchanged (placebo)", "n": len(g)}
+            for k, v in enumerate(conds):
+                row.update({f"rep_dem_error_gap_{v}": stat(g)[k], f"lo_{v}": lo[k], f"hi_{v}": hi[k],
+                            f"mae_{v}": g[f"err_{v}"].abs().mean(), f"na_rate_{v}": g[f"na_{v}"].mean()})
+            tweets.append(row)
+        for domain in CODES:
+            f = triple(f"benoit_manifesto_{domain}_position", model)
+            for v in conds:
+                f[f"code_{v}"] = f[f"prediction_{v}"].map(CODES[domain])
+            assert f[[f"code_{v}" for v in conds]].notna().all().all()
+            f["change"] = f.code_ignore - f.code_orig
+            stat = lambda g: [con_lab_error_gap(g, f"code_{v}") for v in conds] + [con_lab_change(g)]
+            for named, g in f.groupby("masked_changed"):
+                lo, hi = cluster_boot(g, stat)
+                est = stat(g)
+                row = {"group": group, "domain": domain, "model": model,
+                       "passage": "named" if named else "unchanged (placebo)", "n": len(g),
+                       "share_code_changed_ignore": (g.change != 0).mean(),
+                       "con_minus_lab_change_ignore": est[3], "change_lo": lo[3], "change_hi": hi[3]}
+                for k, v in enumerate(conds):
+                    row.update({f"con_lab_error_gap_{v}": est[k], f"lo_{v}": lo[k], f"hi_{v}": hi[k]})
+                benoit.append(row)
+    return pd.DataFrame(tweets), pd.DataFrame(benoit)
+
+
+def title_shifts():
+    """Per-sentence title shifts, one column per coder, plus sentence data."""
+    data = pd.read_csv(REPO / "data" / "benoit_title_economic_position.csv")
+    p = pd.read_csv(REPO / "predictions" / "benoit_title_economic_position.csv")
+    assert not p.parse_error.notna().any()
+    p["code"] = p.prediction.map(CODES["economic"])
+    w = p.pivot_table(index=["model", "item_id"], columns="condition", values="code").dropna()
+    w = (w.shown - w.hidden).unstack("model")
+    w.index = w.index.str.replace("benoit_", "").astype(int)
+    h = pd.read_csv(REPO / "data" / "benoit_title_human_codes.csv")
+    e = h[h.source.eq("Experts")].groupby(["coderid", "sentenceid", "title_shown"]).code.first().unstack()
+    e = (e.Yes - e.No).dropna().groupby("sentenceid").mean().rename("Experts")
+    se = h[h.source.eq("SemiExperts")].groupby(["sentenceid", "title_shown"]).code.mean().unstack()
+    se = (se.Yes - se.No).dropna().rename("Semi-experts")
+    out = data.set_index("sentenceid")[["source_manifesto", "source_party", "in_expert_pairs",
+                                        "in_semi_expert_experiment"]]
+    return out.join([w, e, se]), list(w.columns), p.drop_duplicates("model").set_index("model").group
+
+
+def party_effect(fr, cols):
+    con = fr.source_party.eq("Conservatives")
+    return fr.loc[con, cols].mean() - fr.loc[~con, cols].mean()
+
+
+def title_results():
+    t, models, group = title_shifts()
+    open_models = [m for m in models if group[m] == "open-weight"]
+    common = t.in_expert_pairs & t[models].notna().all(axis=1)
+    sets = {"common": (t[common], "manifesto"),
+            "all expert pairs": (t[t.in_expert_pairs & t[open_models].notna().all(axis=1)], "manifesto"),
+            "semi-expert experiment": (t[t.in_semi_expert_experiment], "sentence")}
+    rows = []
+    for set_name, (fr, unit) in sets.items():
+        humans = ["Experts", "Semi-experts"] if set_name == "semi-expert experiment" else ["Experts"]
+        coders = [c for c in models + humans if fr[c].notna().all()]
+        if set_name != "semi-expert experiment":
+            fr = fr.assign(**{f"diff:{m}": fr[m] - fr.Experts for m in coders if m != "Experts"})
+        cols = [c for c in fr.columns if c in coders or c.startswith("diff:")]
+        np.random.seed(SEED)
+        draws = []
+        for _ in range(N_BOOT):
+            if unit == "manifesto":
+                keys = fr.source_manifesto.unique()
+                b = pd.concat([fr[fr.source_manifesto == k] for k in np.random.choice(keys, len(keys))])
+                if b.source_party.nunique() < 2:
+                    continue
+            else:
+                b = pd.concat([g.sample(len(g), replace=True) for _, g in fr.groupby("source_party")])
+            draws.append(party_effect(b, cols))
+        lo, hi = np.percentile(np.array(draws), [2.5, 97.5], axis=0)
+        est = party_effect(fr, cols)
+        ci = dict(zip(cols, zip(lo, hi)))
+        for c in coders:
+            d = f"diff:{c}"
+            rows.append({
+                "sentences": set_name, "n": len(fr), "coder": c,
+                "group": group.get(c, "human"),
+                "party_effect": est[c], "lo": ci[c][0], "hi": ci[c][1],
+                "minus_experts": est.get(d, np.nan),
+                "minus_experts_lo": ci[d][0] if d in ci else np.nan,
+                "minus_experts_hi": ci[d][1] if d in ci else np.nan,
+            })
+    return pd.DataFrame(rows)
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     benoit, tweets, items = [], [], []
+    present = set(pd.read_csv(REPO / "predictions" / "lemens_gallego_tweet_position.csv").model)
     for group, models in GROUPS.items():
+        models = [m for m in models if m in present]
+        if not models:
+            continue
         # one seed per group, so each group's intervals do not depend on the other
         np.random.seed(SEED)
         benoit.append(benoit_results(group, models))
@@ -218,6 +386,17 @@ def main():
         if name != "tweet_items":
             print(f"\n== {name}")
             print(frame.round(3).to_string(index=False))
+    if (pd.read_csv(REPO / "predictions" / "lemens_gallego_tweet_position.csv").condition == "ignore").any():
+        t, b = ignore_results()
+        for name, frame in {"ignore_instruction_tweets": t, "ignore_instruction_benoit": b}.items():
+            frame.to_csv(OUT / f"{name}.csv", index=False)
+            print(f"\n== {name}")
+            print(frame.round(3).to_string(index=False))
+    if (REPO / "predictions" / "benoit_title_economic_position.csv").exists():
+        frame = title_results()
+        frame.to_csv(OUT / "title_effects.csv", index=False)
+        print("\n== title_effects")
+        print(frame.round(3).to_string(index=False))
 
 
 if __name__ == "__main__":
