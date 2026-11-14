@@ -79,3 +79,7 @@ Rscript code/03_figures.R               # -> figures/
 
 - Le Mens, Gaël, and Aina Gallego. 2025. "Positioning Political Texts with Large Language Models by Asking and Averaging." *Political Analysis* 33: 274–282.
 - Benoit, Kenneth, Drew Conway, Benjamin E. Lauderdale, Michael Laver, and Slava Mikhaylov. 2016. "Crowd-Sourced Text Analysis: Reproducible and Agile Production of Political Data." *American Political Science Review* 110(2): 278–295.
+
+## License
+
+The code is MIT licensed (see [LICENSE](LICENSE)). The tweets, manifesto sentences and human codes come from the sources listed under Data and keep their original terms.
